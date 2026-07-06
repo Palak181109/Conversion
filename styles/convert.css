@@ -1,0 +1,97 @@
+body{
+    background-color: cornsilk;
+}
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+input{
+    height: max-content;
+    width:500px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 15px;
+}
+.input_holder{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sub{
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.base_badge{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+.badge{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#fff;
+    border:6px solid #fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:20px;
+    font-weight:bold;
+    color:#ff7a00;
+
+    box-shadow:
+        0 10px 20px rgba(0,0,0,.12),
+        inset 0 0 0 4px #ff9b42;
+}
+
+.arrow {
+    font-size: 25px;
+    color: #4A90E2;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    transform: translateX(5px);
+}
+
+.result-box{
+    margin: auto;
+    width:500px;
+    height: 50px;
+
+    border-radius: 15px;
+    border:black;
+    background-color: white;
+
+    text-align: center;
+    padding-top: 2%;
+}
+
+button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+    margin: 10px;
+}
